@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YTworld | Channel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="channels.css">
+<script src="channels.js"></script>
+<style>
+header{
+background:orange;
+height:50px;
+}
+header > ul > li > a{
+text-decoration:none;
+border:none;
+outline:none;
+padding:10px;
+font-size:15px;
+color:white;
+overflow:hidden;
+float:left;
+
+}
+header > ul > li > h1{
+font-size:20px;
+margin-left:700px;
+color:green;
+}
+header > ul{
+list-style-type:none;
+display:flex;
+padding:0;
+
+}
+@media screen and(max-width:1140px){
+
+header > ul > li > a{
+padding:10px;
+font-size:5px;
+
+}
+header > ul > li > h1{
+font-size:5px;
+margin-left:400px;
+}
+}</style>
+</head>
+<body>
+<header id="header">
+<ul>
+<li><a href="/home/">Home</a></li>
+<li><a href="/signsignup/">SignIn/SignUp</a></li>
+<li><a href="/channels/">YT Channels</a></li>
+</ul>
+
+</header>
+<div class="Pics">
+<div>
+
+
+
+<img src="unnamed.jpg">
+
+
+
+<a href="https://www.youtube.com/channel/UCE3vpuSKrfI32XUPu0vIebg" target="_blank">_.My_Soldier._</a>
+</div>
+<div>
+<img src="unnamed1.jpg">
+<a href="https://www.youtube.com/channel/UCKGc70OjRlWZsm7_A-q38Vg" target="_blank
+">ᴍᴇ & ʏᴏᴜ</a>
+
+</div>
+<div>
+<img src="unnamed2.jpg">
+<a href="https://www.youtube.com/channel/UC45AkxTHFzJr71483nsOMHw" target="_blank
+">Լիլ</a>
+
+
+</div>
+<div>
+
+<img src="unnamed3.jpg">
+<a href="https://www.youtube.com/channel/UCSy7GvYcSqPUTAFaZwzq1gA" target="_blank
+">Միլենա Դավթյան</a>
+
+
+</div>
+
+</div>
+<center>
+<button id="AddChannel" class="AddChannel" type="submit" name="Add Your Channel" onclick="SubmitAlert()">Add Your Channel</button>
+<div class="SubmitAlert" id="SubmitAlert">
+<a href="#">Please Register Or Login<br/>Click Me!</a>
+<button class="x" onclick="Close()">X</button>
+</div>
+</center>
+</body>
+</html>
