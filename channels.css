@@ -1,5 +1,5 @@
 .Pics{
-display:flex;
+display:block;
 }
 .Pics > div{
 width:200px;
