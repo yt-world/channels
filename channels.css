@@ -52,6 +52,9 @@ cursor:pointer;
 .Pics{
 display:block;
 }
+  .Pics > div{
+  margin:25px;
+  }
 .Pics > div > img{
 width:150px;
 height:150px;
